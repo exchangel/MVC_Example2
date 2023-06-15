@@ -1,0 +1,22 @@
+﻿@*using MVC_Ornek2 kısmını importa taşıdık*@
+
+@model BookType
+
+<h3 class="text-center mt-2">Yeni Kitap Türü Ekleme Sayfası</h3>
+@*
+method=get => query string ile URI üzerinden veri gönderir.
+method=post => paketli gönderir*@
+
+<form method="post" asp-controller="BookType" asp-action="Create">
+
+    <div>
+    <label asp-for="Name">Kitap Türü</label>
+
+    <input asp-for="Name" type="text" class="form-control"/>
+    </div>
+
+    <button type="submit" class="btn btn-success mt-2">Kaydet</button>
+
+    @*Button type submit veri gönderir.*@
+
+</form>
