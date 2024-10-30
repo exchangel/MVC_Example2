@@ -1,4 +1,3 @@
 # MVC_Ornek2
-İlk CRUD Sitem
+My first Website for books, using .NET and Bootstrap.
 
-Kitaplar için ayrı yazar ve tür ekleme, select ile seçme
